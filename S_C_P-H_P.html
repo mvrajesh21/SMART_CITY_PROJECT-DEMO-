@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300:italic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>	
+  <nav class="navbar">
+    <div class="logo">
+    <img src="" alt="CITY TECH">
+    <span></span>
+</div>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="SI&SU.html" class="button">Get Started</a>
+  </nav>
+
+
+
+<div class="chat-popup" id="chat-popup">
+        <div class="title">Let's Chat</div>
+        <div class="chat" id="chat"></div>
+        <input type="text" class="input" id="input" placeholder="Type your message here...." />
+        <button class="button" id="button"><i class="fa-brands fa-telegram"></i></button>
+    </div>
+
+    <div class="chat-icon" id="chat-icon">
+        <i class="fa-solid fa-comments"></i>
+    </div>
+
+
+
+<div></div>&nbsp;
+
+<!-- slider -->
+<div class="slider">
+  <!-- list Items -->
+  <div class="list">
+      <div class="item active">
+          <img src="https://im.hunt.in/cg/Coimbatore/City-Guide/landscape-smart-cities.jpg" alt="Slider Image 1">
+          <div class="content">
+              <p>Smart City Guide</p>
+              <h2>Empowering Newcomers</h2>
+              <p>
+                  Our Smart City Project provides essential information and resources for newcomers, helping them navigate their new environment with ease.
+              </p>
+              <button class="read-more" onclick="window.location.href='MAPS.html'">Read More</button>
+          </div>
+      </div>
+      <div class="item">
+          <img src="https://nationaldeafcenter.org/wp-content/uploads/2018/06/Accommodations.webp" alt="Slider Image 2">
+          <div class="content">
+              <p>Accommodation</p>
+              <h2>Find Your Stay</h2>
+              <p>
+                  Discover available hotels and rental facilities to ensure a comfortable stay in the city.
+              </p>
+              <button class="read-more" onclick="window.location.href='MAPS.html'">Read More</button>
+          </div>
+      </div>
+      <div class="item">
+          <img src="https://media.licdn.com/dms/image/D4D12AQE8OQ-f4vGViA/article-cover_image-shrink_600_2000/0/1674731857740?e=2147483647&v=beta&t=2ujtYdpuOv2Zi_mE2-084vX3LxhHl_PalS0dp2Ppg1w" alt="Slider Image 3">
+          <div class="content">
+              <p>Transportation</p>
+              <h2>Navigate with Ease</h2>
+              <p>
+                  Access public transportation options to move efficiently across the city.
+              </p>
+              <button class="read-more" onclick="window.location.href='MAPS.html'">Read More</button>
+          </div>
+      </div>
+      <div class="item">
+          <img src="https://media.licdn.com/dms/image/C4D12AQGa4DdPqIk28w/article-cover_image-shrink_600_2000/0/1606483197650?e=2147483647&v=beta&t=OqU3nfKNE4CkKm_4Ac-1UpLe4Jr9qCrhrtZSlQvZbyo" alt="Slider Image 4">
+          <div class="content">
+              <p>Healthcare Services</p>
+              <h2>Your Health Matters</h2>
+              <p>
+                  Find local healthcare facilities and emergency services to prioritize your well-being.
+              </p>
+              <button class="read-more" onclick="window.location.href='MAPS.html'">Read More</button>
+          </div>
+      </div>
+      <div class="item">
+          <img src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/bh2lf78dynxtpxfn0dve/header-photo" alt="Slider Image 5">
+          <div class="content">
+              <p>Shopping Landmarks</p>
+              <h2>Explore Local Markets</h2>
+              <p>
+                  Experience the city's shopping districts and local markets for a fulfilling retail adventure.
+              </p>
+              <button class="read-more" onclick="window.location.href='MAPS.html'">Read More</button>
+          </div>
+      </div>
+  </div>
+  <!-- button arrows -->
+  <div class="arrows">
+      <button id="prev"><</button>
+      <button id="next">></button>
+  </div>
+  <!-- thumbnail -->
+  <div class="thumbnail">
+      <div class="item active">
+          <img src="https://im.hunt.in/cg/Coimbatore/City-Guide/landscape-smart-cities.jpg" alt="Thumbnail 1">
+          <div class="content">
+              Slider 01
+          </div>
+      </div>
+      <div class="item">
+          <img src="https://nationaldeafcenter.org/wp-content/uploads/2018/06/Accommodations.webp" alt="Thumbnail 2">
+          <div class="content">
+              Slider 02
+          </div>
+      </div>
+      <div class="item">
+          <img src="https://media.licdn.com/dms/image/D4D12AQE8OQ-f4vGViA/article-cover_image-shrink_600_2000/0/1674731857740?e=2147483647&v=beta&t=2ujtYdpuOv2Zi_mE2-084vX3LxhHl_PalS0dp2Ppg1w" alt="Thumbnail 3">
+          <div class="content">
+              Slider 03
+          </div>
+      </div>
+      <div class="item">
+          <img src="https://media.licdn.com/dms/image/C4D12AQGa4DdPqIk28w/article-cover_image-shrink_600_2000/0/1606483197650?e=2147483647&v=beta&t=OqU3nfKNE4CkKm_4Ac-1UpLe4Jr9qCrhrtZSlQvZbyo" alt="Thumbnail 4">
+          <div class="content">
+              Slider 04
+          </div>
+      </div>
+      <div class="item">
+          <img src="https://res.cloudinary.com/luxuryp/images/w_1280,c_limit,f_auto,q_auto/bh2lf78dynxtpxfn0dve/header-photo" alt="Thumbnail 5">
+          <div class="content">
+              Slider 05
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div></div>
+
+
+
+
+
+
+<section class="min-h-screen bg-gray-900 text-center py-20 px-8 xl:px-0 flex flex-col justify-center">
+  <span class="text-gray-400 text-lg max-w-lg mx-auto mb-2 capitalize flex items-center">what we're offering
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-indigo-600 ml-3 w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+    </svg>
+  </span>
+  <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-semibold max-w-3xl mx-auto mb-16 leading-snug">Smart City Business / Companies</h1>
+  <div class="grid-offer text-left grid sm:grid-cols-2 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
+    
+    <div class="card bg-gray-800 p-10 relative">
+      <div class="circle overflow-hidden rounded-lg h-40">
+        <img src="https://teamtweaks1-blog.s3.us-east-2.amazonaws.com/blog/wp-content/uploads/2023/07/18152025/2-min.png" class="object-cover w-full h-full"/>
+      </div>
+      <div class="relative lg:pr-52">
+        <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">Smart City Solutions Providers:<br />Cisco, Siemens, IBM</h2>
+        <p class="text-gray-400">Intelligent networking, energy management solutions.</p>
+      </div>
+      <div class="icon"></div>
+      <button class="read-more" onclick="window.location.href='MAPS.html'">Read More</button>
+    </div>
+    
+    <div class="card bg-gray-800 p-10 relative">
+      <div class="circle overflow-hidden rounded-lg h-40">
+        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Urban Mobility" class="object-cover w-full h-full"/>
+      </div>
+      <div class="relative lg:pl-48">
+        <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">Urban Mobility Solutions:<br />Uber, Lyft, HERE Technologies</h2>
+        <p class="text-gray-400">Smart transportation solutions for efficient city travel.</p>
+      </div>
+      <button class="read-more" onclick="window.location.href='MAPS.html'">Read More</button>
+    </div>
+    
+    <div class="card bg-gray-800 p-10 relative">
+      <div class="circle overflow-hidden rounded-lg h-40">
+        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Energy Management" class="object-cover w-full h-full"/>
+      </div>
+      <div class="relative lg:pr-44">
+        <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">Energy Management Solutions:<br />Schneider Electric, Enel X</h2>
+        <p class="text-gray-400">Sustainable energy management and smart grid solutions.</p>
+      </div>
+      <button class="read-more" onclick="window.location.href='MAPS.html'">Read More</button>
+    </div>
+    
+    <div class="card bg-gray-800 p-10 relative">
+      <div class="circle overflow-hidden rounded-lg h-40">
+        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Data Analytics Platforms" class="object-cover w-full h-full"/>
+      </div>
+      <div class="relative lg:pl-48">
+        <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">Data Analytics Platforms:<br />Microsoft Azure, Google Cloud</h2>
+        <p class="text-gray-400">Advanced data analytics and IoT solutions for smart cities.</p>
+      </div>
+      <button class="read-more" onclick="window.location.href='MAPS.html'">Read More</button>
+    </div>
+  </div>
+  <script src="https://cdn.tailwindcss.com"></script>
+</section>
+
+
+
+
+
+
+
+
+
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>Vijayawada,Andhra Pradesh,India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>7569628423</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>venkatarajesh75696@gmail.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="https://static.vecteezy.com/system/resources/previews/021/569/037/original/city-building-architectural-circuit-electronic-tech-cyber-connectivity-futuristic-logo-design-vector.jpg" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p></p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Useful Links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">services</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Expert Team</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Latest News</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Subscribe</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Subscribe for many more Updates</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Email Address">
+                                <button><i class="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2018, All Right Reserved <a href="">MVR</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<style>
+  body {
+      font-family: 'DM Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: linear-gradient(to bottom, #33ccff 0%, #99ff99 38%);
+}
+
+    .navbar .logo {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+    }
+    
+    .navbar .logo img {
+      width: 150px;
+      height: 100px;
+      margin-right: 10px;
+    }
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    .navbar ul li {
+      margin: 0 20px;
+    }
+    .navbar ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    .navbar ul li a:hover {
+      color: #1ABC9C;
+    }
+    .navbar .button {
+      padding: 10px 20px;
+      background-color: #1ABC9C;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background-color 0.3s;
+    }
+    .navbar .button:hover {
+      background-color: #16A085;
+    }
+
+
+
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+        }
+
+        .logo img {
+            width: 50px; /* Adjust the size of your logo */
+            height: auto;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .navbar .button {
+            background: #0084ff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .navbar .button:hover {
+            background: #0073e6;
+        }
+
+        .chat-popup {
+            display: none; /* Hidden by default */
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: #64646f33 0px 7px 29px 0px;
+            background: #31363F;
+            z-index: 1000;
+        }
+
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 40px;
+            background: #0084ff;
+            color: white;
+            border-radius: 50%;
+            padding: 10px;
+            cursor: pointer;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .chat-icon:hover {
+            background: #0073e6;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #edf1f3;
+        }
+
+        .chat {
+            height: 400px;
+            overflow-y: scroll;
+            margin: 20px 0;
+            padding: 10px;
+            border: 2px solid #545250;
+            border-radius: 5px;
+            background-color: #2c3035;
+        }
+
+        .message {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .user .text {
+            background: #0084ff;
+            color: white;
+        }
+
+        .bot .text {
+            background: #545250;
+            color: #edf1f3;
+        }
+
+        .text {
+            border-radius: 10px;
+            padding: 10px;
+            max-width: 70%;
+            word-wrap: break-word;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #444;
+            margin-right: 10px;
+        }
+
+        .input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #545250;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            background-color: #222831;
+            color: #edf1f3;
+        }
+
+        .button {
+            background: #0084ff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background: #0073e6;
+        }
+
+
+
+
+
+
+        .read-more {
+    margin-top: 15px; /* Space between paragraph and button */
+    padding: 10px 20px; /* Button padding */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+.read-more:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+        .slider {
+    height: 130vh;
+    margin-top: -50px;
+    position: relative;
+    overflow: hidden; /* Hide overflow to keep items in bounds */
+}
+
+.slider .list .item {
+    position: absolute;
+    inset: 0 0 0 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: .5s;
+    will-change: opacity; /* For better performance */
+}
+
+.slider .list .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0; /* Ensures images are behind text */
+}
+
+.slider .list .item::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 40%, transparent); /* Darker overlay for better contrast */
+    z-index: 1; /* Ensure overlay is above the image */
+}
+
+.slider .list .item .content {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    width: 500px;
+    max-width: 80%;
+    z-index: 2; /* Ensure text is above everything */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px; /* Padding for better spacing */
+    border-radius: 10px; /* Optional: Rounded corners for content */
+}
+
+.slider .list .item .content p:nth-child(1) {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.slider .list .item .content h2 {
+    font-size: 100px;
+    margin: 0;
+    color: #fff; /* Ensure text color is white for contrast */
+}
+
+.slider .list .item.active {
+    opacity: 1;
+    z-index: 10;
+}
+
+@keyframes showContent {
+    to {
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+.slider .list .item.active p:nth-child(1),
+.slider .list .item.active h2,
+.slider .list .item.active p:nth-child(3) {
+    transform: translateY(30px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s .7s ease-in-out 1 forwards;
+}
+
+.slider .list .item.active h2 {
+    animation-delay: 1s;
+}
+
+.slider .list .item.active p:nth-child(3) {
+    animation-duration: 1.3s;
+}
+
+.arrows {
+    position: absolute;
+    top: 30%;
+    right: 50px;
+    z-index: 100;
+}
+
+.arrows button {
+    background-color: #eee5;
+    border: none;
+    font-family: monospace;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #eee;
+    transition: .5s;
+}
+
+.arrows button:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.thumbnail {
+    position: absolute;
+    bottom: 50px;
+    right: 0; /* Move thumbnails to the right */
+    z-index: 11;
+    display: flex;
+    gap: 10px;
+    width: auto; /* Allow flexible width */
+    height: 220px; /* Adjusted height for thumbnails */
+    padding: 0 20px; /* Adjusted padding */
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.thumbnail::-webkit-scrollbar {
+    width: 0;
+}
+
+.thumbnail .item {
+    width: 150px;
+    height: 220px;
+    filter: brightness(.5);
+    transition: .5s;
+    flex-shrink: 0;
+}
+
+.thumbnail .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.thumbnail .item.active {
+    filter: brightness(1.5);
+}
+
+.thumbnail .item .content {
+    position: absolute;
+    inset: auto 10px 10px 10px;
+}
+
+@media screen and (max-width: 678px) {
+    .thumbnail {
+        justify-content: start;
+    }
+
+    .slider .list .item .content h2 {
+        font-size: 60px;
+    }
+
+    .arrows {
+        top: 10%;
+    }
+}
+
+
+
+
+
+ 
+/*footer*/
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: linear-gradient(to bottom, #33ccff 0%, #99ff99 38%);
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+</style>
+
+<script>
+
+let items = document.querySelectorAll('.slider .list .item');
+let next = document.getElementById('next');
+let prev = document.getElementById('prev');
+let thumbnails = document.querySelectorAll('.thumbnail .item');
+
+// config param
+let countItem = items.length;
+let itemActive = 0;
+
+// event next click
+next.onclick = function() {
+    itemActive = itemActive + 1;
+    if (itemActive >= countItem) {
+        itemActive = 0;
+    }
+    showSlider();
+}
+
+// event prev click
+prev.onclick = function() {
+    itemActive = itemActive - 1;
+    if (itemActive < 0) {
+        itemActive = countItem - 1;
+    }
+    showSlider();
+}
+
+// auto run slider
+let refreshInterval = setInterval(() => {
+    next.click();
+}, 5000)
+
+function showSlider() {
+    // remove item active old
+    let itemActiveOld = document.querySelector('.slider .list .item.active');
+    let thumbnailActiveOld = document.querySelector('.thumbnail .item.active');
+    itemActiveOld.classList.remove('active');
+    thumbnailActiveOld.classList.remove('active');
+
+    // active new item
+    items[itemActive].classList.add('active');
+    thumbnails[itemActive].classList.add('active');
+    setPositionThumbnail();
+
+    // clear auto time run slider
+    clearInterval(refreshInterval);
+    refreshInterval = setInterval(() => {
+        next.click();
+    }, 5000);
+}
+
+function setPositionThumbnail() {
+    let thumbnailActive = document.querySelector('.thumbnail .item.active');
+    let rect = thumbnailActive.getBoundingClientRect();
+    if (rect.left < 0 || rect.right > window.innerWidth) {
+        thumbnailActive.scrollIntoView({ behavior: 'smooth', inline: 'nearest' });
+    }
+}
+
+// click thumbnail
+thumbnails.forEach((thumbnail, index) => {
+    thumbnail.addEventListener('click', () => {
+        itemActive = index;
+        showSlider();
+    });
+});
+
+
+
+
+//A simple chatbot that responds with some predefined answers
+function chatbot(input) {
+    let output = "";
+    input = input.toLowerCase();
+    if (input.includes("hello") || input.includes("hi")) {
+        output = "Hello, nice to meet you!";
+    } else if (input.includes("how are you")) {
+        output = "I'm doing fine, thank you for asking.";
+    } else if (input.includes("what is your name")) {
+        output = "My name is Jarvis, I'm a chatbot.";
+    } else if (input.includes("what can you do")) {
+        output = "I can chat with you and answer some simple questions.";
+    } else if (input.includes("tell me a joke")) {
+        output = "Why did the chicken go to the seance? To get to the other side.";
+    } else {
+        output = "Sorry, I don't understand that. Please try something else.";
+    }
+    return output;
+}
+
+// Display the user message on the chat
+function displayUserMessage(message) {
+    let chat = document.getElementById("chat");
+    let userMessage = document.createElement("div");
+    userMessage.classList.add("message", "user");
+    let userAvatar = document.createElement("div");
+    userAvatar.classList.add("avatar");
+    let userText = document.createElement("div");
+    userText.classList.add("text");
+    userText.innerHTML = message;
+    userMessage.appendChild(userAvatar);
+    userMessage.appendChild(userText);
+    chat.appendChild(userMessage);
+    chat.scrollTop = chat.scrollHeight;
+}
+
+// Display the bot message on the chat
+function displayBotMessage(message) {
+    let chat = document.getElementById("chat");
+    let botMessage = document.createElement("div");
+    botMessage.classList.add("message", "bot");
+    let botAvatar = document.createElement("div");
+    botAvatar.classList.add("avatar");
+    let botText = document.createElement("div");
+    botText.classList.add("text");
+    botText.innerHTML = message;
+    botMessage.appendChild(botAvatar);
+    botMessage.appendChild(botText);
+    chat.appendChild(botMessage);
+    chat.scrollTop = chat.scrollHeight;
+}
+
+// Send the user message and get the bot response
+function sendMessage() {
+    let input = document.getElementById("input").value;
+    if (input) {
+        displayUserMessage(input);
+        let output = chatbot(input);
+        setTimeout(function() {
+            displayBotMessage(output);
+        }, 1000);
+        document.getElementById("input").value = "";
+    }
+}
+
+// Add a click event listener to the button
+document.getElementById("button").addEventListener("click", sendMessage);
+
+// Add a keypress event listener to the input
+document.getElementById("input").addEventListener("keypress", function(event) {
+    if (event.keyCode == 13) {
+        sendMessage();
+    }
+});
+
+// Function to toggle the chat popup
+function toggleChatPopup() {
+    const chatPopup = document.getElementById("chat-popup");
+    chatPopup.style.display = chatPopup.style.display === "none" || chatPopup.style.display === "" ? "block" : "none";
+}
+
+// Add click event listener to the chat icon
+document.getElementById("chat-icon").addEventListener("click", toggleChatPopup);
+
+</script>
+</html>
